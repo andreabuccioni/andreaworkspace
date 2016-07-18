@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/web/ect2200/session1"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/web/ect2200/session2"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/web/ect2200/session3"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/web/ect2200/session4"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/web/ect2200/session5"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}

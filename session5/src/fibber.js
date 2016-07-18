@@ -20,11 +20,20 @@ fibber.initialize = function(){
 
 	$("#startbtn").on("click", fibber.start);
 
+	$("#viewstatement").display();
+
+	$(".fib-btn").click(function(){
+		alert("false!!");
+
+	});
+	
+
 };
 
 fibber.start = function(){
 	alert("Start Button Clicked...");
 };
+
 
 
 
