@@ -20,6 +20,8 @@
     <script type="text/javascript" charset="utf-8" src="src/af.ui.js"></script>
 
     <script type="text/javascript" src="src/fibber.js"></script>
+
+
     <link rel="stylesheet" type="text/css" href="build/fibber.css" />
 
     <script src="src/af.desktopBrowsers.js"></script>
@@ -35,16 +37,12 @@
     <script type="text/javascript" charset="utf-8" src="src/af.lockscreen.js"></script>
 
 
-
     <script>
-
         $(document).ready(function(){
             fibber.initialize();
-
-
         });
-
     </script>
+
 
 
 </head>
@@ -64,17 +62,17 @@
 
             <div class="panel" id="instructions">
                 <div class="card">
-                    <div class="gametitle-splash">fibber</div>
+                    <div id="fibbertitle" class="gametitle-splash">fibber</div>
                     <div class="gamedesc-splash">a game about political deception and stripping</div>
                     <br>
                     <b>how to play</b>
                     <p>1. read statement<br>
                     2. decide if it’s a truth or a fib<br>
                     3. first person naked loses</p>
-                    <a href="#viewstatement" class="button" id="startbtn">start</a>
+                    <a href="#viewstatement" id="startbtn" class="button">start</a>
                 </div>
             </div>
-            
+
 
             <div class="panel" id="viewstatement">
                 <div id="gameheader">
@@ -91,8 +89,8 @@
                 </div>
 
                 <div id="statement" class="col-statement">
-                    <div id="statement-text">--</div>
-                    <div id="statement-context">--</div>
+                    <div id="statement-text">-----</div>
+                    <div id="statement-context">-----</div>
                 </div>
 
                 <div id="trump" class="col-char">
@@ -107,6 +105,10 @@
 
                 <div id="counter-player" class="lives-count-box">5</div>
 
+            </div>
+
+            <div class="panel" id="about">
+                Trump Icon by Katunger
             </div>
 
         </div>
